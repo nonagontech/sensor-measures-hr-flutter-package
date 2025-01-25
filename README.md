@@ -4,7 +4,7 @@
   dependencies:
     sensor_measures_hr_flutter_package:
       git:
-        url: http://47.101.213.68:5015/se11/sensor-measures-hr-flutter-package.git
+        url: https://github.com/nonagontech/sensor-measures-hr-flutter-package.git
     ffi: any
   ```
 ### 导入
