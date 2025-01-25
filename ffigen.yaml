@@ -1,0 +1,19 @@
+# Run with `dart run ffigen --config ffigen.yaml`.
+name: SensorMeasuresHrFlutterPackageBindings
+description: |
+  Bindings for `src/sensor_measures_hr_flutter_package.h`.
+
+  Regenerate bindings with `dart run ffigen --config ffigen.yaml`.
+output: 'lib/sensor_measures_hr_flutter_package_bindings_generated.dart'
+headers:
+  entry-points:
+    - 'src/sensor_measures_hr_flutter_package.h'
+  include-directives:
+    - 'src/sensor_measures_hr_flutter_package.h'
+preamble: |
+  // ignore_for_file: always_specify_types
+  // ignore_for_file: camel_case_types
+  // ignore_for_file: non_constant_identifier_names
+comments:
+  style: any
+  length: full
